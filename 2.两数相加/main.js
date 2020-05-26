@@ -57,7 +57,9 @@ var addTwoNumbers = function (l1, l2) {
     return header.next
 };
 
-a = genList([2,4,3])
-b = genList([5,6,4])
-c = addTwoNumbers(a, b)
-showList(c)
+(function main() {
+    a = genList([2, 4, 3])
+    b = genList([5, 6, 4])
+    c = addTwoNumbers(a, b)
+    showList(c)
+}());
